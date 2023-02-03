@@ -20,16 +20,16 @@ const Conctact = (props) => {
       <div>Email: {contact.email}</div>
       <div className="estado">
         <p>
-          <span>Estado: </span>
+          <span>Contacto </span>
           {contact.conectado === false ? (
             <>
               <span className="desconectado" />
-              Desconectado
+              No disponible
             </>
           ) : (
             <>
               <span className="conectado" />
-              Conectado
+              En línea
             </>
           )}
         </p>
