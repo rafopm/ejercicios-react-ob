@@ -1,3 +1,6 @@
+Listar y agregar contactos
+
+React + Redux
 
 Redux:
 1. Types
